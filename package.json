@@ -1,0 +1,19 @@
+{
+  "name": "redredisearch",
+  "version": "0.1.0",
+  "description": "Redis search for node.js powered by the RediSearch module",
+  "keywords": [
+    "redis",
+    "search",
+    "redisearch"
+  ],
+  "author": "Kyle Davis",
+  "dependencies": {
+    "redis": "^2.7.1"
+  },
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stockholmux/redredisearch"
+  }
+}
