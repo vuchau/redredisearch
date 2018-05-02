@@ -1,13 +1,13 @@
 {
   "name": "redredisearch",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Redis search for node.js powered by the RediSearch module",
   "keywords": [
     "redis",
     "search",
     "redisearch"
   ],
-  "author": "Kyle Davis",
+  "author": "Thinh Nguyen",
   "dependencies": {
     "redis": "^2.7.1"
   },
