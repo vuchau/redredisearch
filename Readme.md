@@ -96,6 +96,15 @@ search
 ```
 
 Also included in the package is the RediSearch Suggestion API. This has no corollary in the Reds module. The Suggestion API is ideal for auto-complete type situations and is entirely separate from the Search API. 
+```js
+search
+  .query('(hello|hella) (world|werld)')
+  
+  .type('direct')
+  .end(function(err, ids){
+    /* ... */
+  });
+```
 
 ```js
 var suggestions = redredisearch.suggestion('my-suggestion-list');
